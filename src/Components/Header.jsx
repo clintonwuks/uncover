@@ -10,7 +10,7 @@ function Header() {
             </header>
 
             <div className="container mx-auto text-center" >
-            <CountdownTimer />
+            <CountdownTimer countdownTimeStampMs={1660953600000} />
             </div>
         </div>
     );
