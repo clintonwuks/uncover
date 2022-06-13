@@ -13,8 +13,7 @@ const Navbar = ()  => {
 	}, [navToggle])
 	
     return (
-        <div >
-			<nav className="navbar navbar-expand-lg fixed-top">
+			<nav className="navbar navbar-expand-lg bg-success">
 				<div className="container-fluid">
 					<a className="navbar-brand text-white " href="/"><i className="fa fa-gamepad mr-2 " style={{ fontSize:'25px' }}></i>Uncover</a>
 					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navConts" onClick={toggleBar} >
@@ -36,7 +35,6 @@ const Navbar = ()  => {
 					</div>
 				</div>
 			</nav>
-        </div>
     );
 }
 

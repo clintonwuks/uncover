@@ -1,0 +1,22 @@
+footer a.text-light:hover {
+    color: #fed136 !important;
+    text-decoration: none;
+}
+
+
+footer .foot {
+    border-right: 1px solid #535e67;
+}
+
+@media (max-width: 992px) {
+    footer .foot {
+        border-right: none;
+    }
+}
+
+.footer  {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

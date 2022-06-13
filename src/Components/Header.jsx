@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import CountdownTimer from './CountdownTimer';
 
 function Header() {
     return (
@@ -7,6 +8,10 @@ function Header() {
             <header>
                 < Navbar />
             </header>
+
+            <div className="container mx-auto text-center" >
+            <CountdownTimer />
+            </div>
         </div>
     );
 }

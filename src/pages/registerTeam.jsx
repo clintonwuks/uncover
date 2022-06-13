@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../Components/Header';
 
-function registerTeam() {
+function RegisterTeam() {
 
 
     return (
@@ -12,4 +12,4 @@ function registerTeam() {
     );
 }
 
-export default registerTeam;
+export default RegisterTeam;

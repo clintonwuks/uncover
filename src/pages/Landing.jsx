@@ -1,13 +1,18 @@
 import React from 'react';
 
 import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 function Landing() {
 
-
     return (
-        <div className="qbootstrap-hero">
-                <Header/>
+        <div>
+            <Header/>
+            
+            <div className='mt-auto'>
+                <Footer/>
+            </div>
+            
         </div>
     );
 }
