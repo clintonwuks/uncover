@@ -1,16 +1,13 @@
 import React from 'react';
+import '../countdownTimer.css';
 
 function CountdownTimer() {
     return (
-        <div>
-            <div className="display-t">
-                <div >
-                    <span>
+            <div id='timer' className="display-t ">
+                    <span className='countdown'>
                         <h4>CountDown Timer</h4>
                     </span>
-                </div>
             </div>
-        </div>
     );
 }
 
