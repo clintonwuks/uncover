@@ -1,10 +1,12 @@
 import React, {useState, useEffect } from 'react';
-import '../countdownTimer.css';
+import './countdownTimer.css';
+import { getRemainingTimeUntilMsTimestamp } from './CountdownTimerUtils';
+
 const defaultTimeLeft = {
-    seconds : '24',
-    minutes : '45',
-    hours : '34',
-    days : '20',
+    seconds : '00',
+    minutes : '00',
+    hours : '00',
+    days : '00',
 }
 
 function CountdownTimer({countdownTimeStampMs}) {
@@ -19,12 +21,15 @@ function CountdownTimer({countdownTimeStampMs}) {
     }, [countdownTimeStampMs])
     
     function updateTimeLeft(countdown) {
-        console.log('timer counting')
-    }
+        setTimeLeft(getRemainingTimeUntilMsTimestamp(countdown));
+        }
 
 
     return (
-            <div id='timer' className="">
+            <div id='timer'>
+                <div id='icon' className='mdi mdi-calendar-clock ' style={{fontSize : '100px', color: 'green'}}>
+                    
+                </div>
                     <span className='countdown '>
                         <span>{timeLeft.days}</span>
                         <span>days</span>
