@@ -1,11 +1,23 @@
-import logo from './logo.svg';
+import Landing from './pages/Landing';
+import RegisterTeam from './pages/RegisterTeam';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+} from "react-router-dom";
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <BrowserRouter className="App">
+            <Routes>
+                <Route path="/" element={<Landing />} />
+                <Route path="RegisterTeam" element={<RegisterTeam/>} />
+                {/*<Route path="invoices" element={<Invoices />} />*/}
+            </Routes>
+            
+        </BrowserRouter>
   );
 }
 
