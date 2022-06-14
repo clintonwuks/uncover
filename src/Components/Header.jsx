@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import CountdownTimer from './CountdownTimer';
+import CountdownTimer from './CountdownTimer/CountdownTimer.jsx';
 
 function Header() {
     return (

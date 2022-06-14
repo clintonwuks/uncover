@@ -5,6 +5,7 @@
 }
 #id{
     /* padding-top:300px; */
+    font-size: 1.5em;
 }
 
 .countdown {
@@ -25,4 +26,12 @@ span {
     font-size: 1.5em;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+    span {
+        font-size: 1.25em;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }

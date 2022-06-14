@@ -26,7 +26,7 @@ const Navbar = ()  => {
 							</li>
 							
 							<li className="nav-item pl-1">
-								<Link className="nav-link" to="/registerTeam"><i className="bi bi-emoji-heart-eyes-fill mr-1"></i>Register Team</Link>
+								<Link className="nav-link" to="/registerTeam"><i className="fa fa-soccer-ball-o mr-2 "></i>Register Team</Link>
 							</li>
 							<li className="nav-item pl-1">
 								<Link className="nav-link" to="https://twitter.com/TheRealClint_"><i className="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Contact Us</Link>
