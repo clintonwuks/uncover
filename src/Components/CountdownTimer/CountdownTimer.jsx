@@ -26,11 +26,11 @@ function CountdownTimer({countdownTimeStampMs}) {
 
 
     return (
-            <div id='timer'>
+            <div id='countdownTimer'>
                 <div id='icon' className='mdi mdi-calendar-clock ' style={{fontSize : '100px', color: 'green'}}>
                     
                 </div>
-                    <span className='countdown '>
+                    <span className='timer '>
                         <span>{timeLeft.days}</span>
                         <span>days</span>
                         <span>{timeLeft.hours}</span>

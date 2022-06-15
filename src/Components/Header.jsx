@@ -1,17 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
-import CountdownTimer from './CountdownTimer/CountdownTimer.jsx';
 
 function Header() {
     return (
         <div>
-            <header>
+            <header className='header' style={{width : '100vw'}}>
                 < Navbar />
             </header>
-
-            <div className="container mx-auto text-center" >
-            <CountdownTimer countdownTimeStampMs={1660953600000} />
-            </div>
         </div>
     );
 }

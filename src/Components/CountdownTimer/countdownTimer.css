@@ -1,24 +1,25 @@
 * {
-    margin: 0px;
-    padding: 0px;
+
     
 }
-#id{
+#countdownTimer{
     /* padding-top:300px; */
-    font-size: 1.5em;
+    height: 100%;
+    width: 100%;
+    color: #ffff;
 }
 
-.countdown {
+.timer {
     margin-top: 10px;
     padding-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border: 2px solid rgb(122, 206, 140);
-    border-style: groove;
-    box-shadow: 2em;
-    
+    border: 1px solid rgb(128, 128, 128);
+    border-style: outset;
+    box-shadow: 30px;
+    background-color: rgb(122, 206, 140);
+    /*background-color: transparent;*/
 }
 
 span {
