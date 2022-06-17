@@ -26,21 +26,23 @@ function CountdownTimer({countdownTimeStampMs}) {
 
 
     return (
-            <div id='countdownTimer'>
-                <div id='icon' className='mdi mdi-calendar-clock ' style={{fontSize : '100px', color: 'green'}}>
-                    
+            <section id='countdownTimer'>
+                <div id='icon'>
+                    <span className='mdi mdi-calendar-clock'></span>
+                    <h4 style={{fontSize : '2em'}}>Get Me Litty</h4>
+                    <p>Are you ready for the loudest event this summer?</p>
                 </div>
-                    <span className='timer '>
-                        <span>{timeLeft.days}</span>
-                        <span>days</span>
-                        <span>{timeLeft.hours}</span>
-                        <span>hours</span>
-                        <span>{timeLeft.minutes}</span>
-                        <span>minutes</span>
-                        <span>{timeLeft.seconds}</span>
-                        <span>seconds</span>
-                    </span>
-            </div>
+                <span className='timer '>
+                    <span>{timeLeft.days}</span>
+                    <span>{timeLeft.hours}</span>
+                    <span>{timeLeft.minutes}</span>
+                    <span>{timeLeft.seconds}</span>
+                    <span>days</span>
+                    <span>hours</span>
+                    <span>minutes</span>
+                    <span>seconds</span>
+                </span>
+            </section>
     );
 }
 
